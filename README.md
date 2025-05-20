@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Interview Process Optimization Survey
 
 This project collects feedback from job candidates and company representatives about technical interview processes to develop an AI-ML based solution for optimizing technical interviews.
@@ -22,3 +23,6 @@ The survey collects information about:
 
 ## Research Paper
 This survey is part of a research study on "AI-ML Based Interview Process Optimization: Enhancing Recruitment Efficiency and Candidate Experience"
+=======
+# interview-survey
+>>>>>>> 777403344d23b988494e8e683f0e13d07e0ad705
