@@ -82,10 +82,9 @@ def survey_page():
                     st.error(error)
             else:
                 # Save response
-                responses['timestamp'] = datetime.now()
+                responses['timestamp'] = str(datetime.now())
                 responses['survey_type'] = st.session_state.survey_type
-                db = DatabaseManager()
-                db.save_response(responses)
+                st.session_state.all_responses.append(responses)
                 
                 st.session_state.page = 'thank_you'
                 st.rerun()
