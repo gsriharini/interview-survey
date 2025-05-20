@@ -6,7 +6,7 @@ from typing import Dict, Any
 
 class DatabaseManager:
     def __init__(self):
-        self.responses_dir = Path("data/responses")
+        self.responses_dir = Path.cwd() / "data" / "responses"
         self.responses_dir.mkdir(parents=True, exist_ok=True)
         
     def save_response(self, response_data: Dict[str, Any]) -> str:
